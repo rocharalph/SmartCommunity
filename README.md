@@ -18,5 +18,5 @@ CampusSafe is a campus incident reporting and management system developed using 
 - John Micheal Magalang
 - Lionel Borromeo
 - Anjelou Galvez
-- Rey jr.
+- Rey jr. Ablero
 - Gerald Rosales
