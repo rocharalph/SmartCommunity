@@ -9,9 +9,19 @@ CampusSafe is a campus incident reporting and management system developed using 
 - Camera Upload
 - Smart Keyword detection
 - Notifications
+- Real-time Report Updates
 - Admin Dashboard
+- Total Reports Monitoring
 - Manage Reports
 - Manage Users
+
+
+##tech stack
+- Android Studio
+- Java
+- Firebase Authentication
+- Firebase Realtime Database
+- Cloudinary
 
 ## Developers
 - Ralph Lawrence Rocha
