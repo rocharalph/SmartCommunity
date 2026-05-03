@@ -7,7 +7,7 @@ CampusSafe is a campus incident reporting and management system developed using 
 - Incident Reporting
 - Update user details
 - Camera Upload
-- Keyword detection
+- Smart Keyword detection
 - Notifications
 - Admin Dashboard
 - Manage Reports
