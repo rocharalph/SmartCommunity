@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- MODERN HEADER -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#2563EB"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+
+        <!-- App Name -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report Incident"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <!-- Incident Title -->
+            <EditText
+                android:id="@+id/titleInput"
+                android:hint="Incident Title"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- Description -->
+            <EditText
+                android:id="@+id/descriptionInput"
+                android:layout_width="372dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="top"
+                android:hint="Description"
+                android:minLines="1" />
+
+            <!-- Location -->
+            <EditText
+                android:id="@+id/locationInput"
+                android:hint="Location (e.g. Gate 2, Canteen)"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"/>
+
+            <!-- Category -->
+            <Spinner
+                android:id="@+id/categorySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:padding="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!-- Upload Image -->
+                    <Button
+                        android:id="@+id/uploadBtn"
+                        android:text="Upload Image"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#2563EB"/>
+
+                    <!-- Submit -->
+                    <Button
+                        android:id="@+id/submitBtn"
+                        android:text="Submit Report"
+                        android:backgroundTint="#4CAF50"
+                        android:textColor="#FFFFFF"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"/>
+                </LinearLayout>
+            <!--preview image-->
+            <ImageView
+                android:id="@+id/imgPreview"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_image_placeholder" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+

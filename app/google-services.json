@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "387623314723",
+    "project_id": "campussafe-b3476",
+    "storage_bucket": "campussafe-b3476.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387623314723:android:eca41d0e2be2eb5c3dd896",
+        "android_client_info": {
+          "package_name": "com.example.smartcommunity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI4Wakl5iQIgKSI34W66pRWDftgaejLLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

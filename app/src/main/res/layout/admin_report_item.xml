@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/bg_color"
+    android:elevation="2dp">
+
+    <ImageView
+        android:id="@+id/imgAdminReport"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="68dp"
+        android:src="@mipmap/ic_launcher"  />
+    <TextView
+        android:id="@+id/tvAdminReportTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incident Title"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvAdminReporterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reported by: Anonymous"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvAdminDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="April 12, 2026 - 08:30 PM"
+        android:textColor="@color/text_color"
+        android:textSize="12sp"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/tvAdminCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: Theft"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvAdminLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: Gate 2"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvAdminDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description here..."
+        android:textColor="@color/text_color"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvAdminStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Pending"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="6dp" />
+
+    <Button
+        android:id="@+id/btnOpenReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Report"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

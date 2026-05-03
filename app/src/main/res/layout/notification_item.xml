@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/bg_color"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/tvNotifItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Title"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/tvNotifMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification message here"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvNotifTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just now"
+        android:textColor="@color/text_color"
+        android:textSize="12sp"
+        android:layout_marginTop="6dp" />
+
+</LinearLayout>

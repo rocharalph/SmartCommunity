@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.SmartCommunity" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Light / Dark mode adaptive colors -->
+        <item name="android:windowBackground">@color/bg_color</item>
+
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorSecondary">@color/primary_blue</item>
+
+        <item name="android:textColor">@color/text_color</item>
+
+    </style>
+
+    <!-- Main Theme -->
+    <style name="Theme.SmartCommunity"
+        parent="Base.Theme.SmartCommunity" />
+
+</resources>
